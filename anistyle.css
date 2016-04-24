@@ -1,0 +1,38 @@
+p { 
+	font-family: 'Rubik', 'Verdana', sans-serif;
+	font-size: 12px;
+}
+
+text { 
+	font-family: 'Rubik', 'Verdana', sans-serif;
+	font-size: 12px;
+}
+
+.title {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+#footnote {
+	font-size: 10px;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	stroke-width: 3px;
+	shape-rendering: crispEdges;
+}
+
+.pts:hover {
+	fill: rgba(51, 204, 255, 1);
+}
+
+.tool-tip {
+	padding: 5px;
+	background: rgba(51, 204, 255, .4);
+	color: #000000;
+	font-family: 'Rubik', 'Verdana', sans-serif;
+	font-size: 10px;
+}
